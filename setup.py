@@ -14,6 +14,6 @@ setup(
     packages = ["radicale_auth_seafile"],
     install_requires = [
         "passlib>=1.7.0",
-        "psycopg2",
+        "psycopg2-binary",
     ],
 )
